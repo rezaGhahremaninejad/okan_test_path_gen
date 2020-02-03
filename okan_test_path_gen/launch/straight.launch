@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="target_destination" type="string" value="50" />
+    <param name="maximum_speed" type="string" value="2" />
+    <param name="just_sim" type="string" value="0" />
+    <node name="straight_path" pkg="okan_test_path_gen" type="straight_path.py" output="screen"/>
+</launch>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="target_destination" type="string" value="150" />
+    <param name="maximum_speed" type="string" value="2" />
+    <param name="sin_gain" type="string" value="20" />
+    <param name="sin_freq" type="string" value="0.09" />
+    <param name="just_sim" type="string" value="1" />
+    <node name="sin_path" pkg="okan_test_path_gen" type="sin_path.py" output="screen"/>
+</launch>
